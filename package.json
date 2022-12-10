@@ -2,11 +2,7 @@
   "name": "tour_planning_agency",
   "version": "0.1.0",
   "private": true,
-<<<<<<< HEAD
-  "home":"https://fawad1386.github.io9/tour-planning-agency",
-=======
-  "homepage": "https://fawad1386.github.io9/tour-planning-agency",
->>>>>>> 2d682386860fa053ad628a501875b3acc254a4f1
+  "homepage": "https://fawad1386.github.io/tour-planning-agency",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
