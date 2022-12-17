@@ -3,7 +3,9 @@
     color: black;
 
 }
-
+.blank-space{
+    padding-top: 70px;
+}
 
 .searchbar2{
     font-family: Montserrat;
@@ -19,7 +21,6 @@
     margin-top: 10px;
 }
 .cntct-form {
-
     background-color:#2f2f2f;
     color: white;
 }

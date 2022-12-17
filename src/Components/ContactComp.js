@@ -7,7 +7,9 @@ class ContactComp extends Component {
     render() {
         return (
             <div className="">
+              <div className="blank-space"></div>
                 <Form className="cntct-form">
+                
                     <h2 className="top-margin">Contact Us</h2>
                     <h2 className="heading-1 title-margin">Contact Us</h2>
                     <div className="underline">Contact Us</div>

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Home.css';
 import ContactComp from "./ContactComp.js";
+import TestimonialComp from "./TestimonialComp";
 import { Container, Nav, Navbar, Form, Button } from "react-bootstrap";
 
 class Home extends Component {
@@ -57,7 +58,9 @@ class Home extends Component {
                     <div className="underline">Our Gallerr</div>
                     <div className="heading-2">Photos by Our Customers</div>
                 </div>
+                <TestimonialComp/>
                 <ContactComp/>
+                
                 </div>
           
         )
