@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./NavbarComp.css"
+import "./Home";
 import { Container, Nav, Navbar, Form, Button } from "react-bootstrap";
 import {
     BrowserRouter as Router, Link
@@ -18,7 +19,7 @@ class NavbarComp extends Component {
                                 className="me-auto my-2 my-lg-0"
                                 style={{ maxHeight: '100px' }}
                                 navbarScroll>
-                                <Nav.Link as={Link} to={"/home"} className="nav-text">Home</Nav.Link>
+                                <Nav.Link as={Link} to={"/home"} className="nav-text" >Home</Nav.Link>
                                 <Nav.Link as={Link} to={"/check-status"} className="nav-text">Check Status</Nav.Link>
                                 <Nav.Link as={Link} to={"/about"} className="nav-text">About</Nav.Link>
                                 <Nav.Link as={Link} to={"/admin"} className="nav-text">Admin</Nav.Link>

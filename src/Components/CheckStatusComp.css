@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap');
+::placeholder{
+    color: white;
+}
+::placeholder:active{
+    color: black;
+}
+.check-1{
+    background-image: url(/src/img/eryka-ragna-cxAqlaT5GbI-unsplash\ 1.png);
+    width: 1349px;
+    height: 550px;
+    margin-top: -250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.check-2{
+
+    margin-left: 48px;
+    background-image: url(/src/img/eryka-ragna-mBndpK6E2mQ-unsplash\ 2.png);
+    width: 1262px;
+    height: 359px;
+    margin-top: -190px;
+    background-repeat: no-repeat;
+}
+
+.Tagline{
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: -320px;
+}
+
+.Tagline-2{
+    font-family: Montserrat;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin-top: 7px;
+    font-size: 35px;
+}
+
+.searchbar{
+    margin-top: 30px;
+    margin-left: 485px;
+    background-color: transparent;
+    color: #ff4d00;
+    text-align: center;
+    width: 400px;
+    border-color: #ff4d00;
+    border-width: 2px;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: white;
+}
+
+.form-control:a{
+    color: black;
+}
+
+.search{
+    font-family: Montserrat;
+    margin-top: 15px;
+    margin-left: 640px;
+    background-color: #ff4d00;
+    color: white;
+    box-shadow: inset 0 0 0 0 ;
+    border-radius: 10px;
+    border-width: 2px;
+    transition: color .8s ease-in-out, box-shadow .8s ease-in-out;
+}
+
+.search:hover{
+    font-family: Montserrat;
+    color: #ff4d00;
+    border-color: #ff4d00;
+    box-shadow: inset 135px 0 0 0 white;
+}
+
+.check-12{
+    margin-top: 50px;
+}
+.check-9{
+    margin-top: 50px;
+margin-left: 520px;
+}
+.check-10{
+    margin-left: 520px;
+    margin-bottom: 50px;
+}
+.check-13{
+    
+    width: 300px;
+    margin-top:10px ;
+}
+.check-14{
+    width: 300px;
+}
+
+.check-11{
+    margin-bottom: 40px;
+}

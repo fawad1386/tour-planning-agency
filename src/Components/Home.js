@@ -5,10 +5,13 @@ import ContactComp from "./ContactComp.js";
 import TestimonialComp from "./TestimonialComp";
 import { Container, Nav, Navbar, Form, Button } from "react-bootstrap";
 
+
 class Home extends Component {
     render() {
         return (
+
             <div>
+            
                 <div className="bg-img"></div>
                 <div className="bg-img-2"></div>
                 <div className="Tagline">Book with Us and Book it out of Here</div>
