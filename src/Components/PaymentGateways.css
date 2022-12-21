@@ -1,0 +1,33 @@
+body{
+    font-family: Montserrat;
+}
+.payment-card{
+    background-color: #2f2f2f;
+  
+    margin-top: 120px;
+    margin-bottom: 70px;
+}
+.payment-9{
+    margin-left: 360px;
+}
+
+.payment-10{
+    margin-left: 360px;
+}
+
+.payment-15{
+    margin-left: 360px;
+    font-family: Montserrat;
+}
+.payment-17{
+    margin-left: 360px;
+
+}
+.margin-below{
+    margin-bottom: 30px;
+}
+.payment-11{
+    margin-left: 360px;
+    width: 360px;
+    margin-bottom: 30px;
+}

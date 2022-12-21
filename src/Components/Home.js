@@ -4,6 +4,14 @@ import './Home.css';
 import ContactComp from "./ContactComp.js";
 import TestimonialComp from "./TestimonialComp";
 import { Container, Nav, Navbar, Form, Button } from "react-bootstrap";
+import NavbarComp from "./NavbarComp";
+import {
+    BrowserRouter as Router, Link, Route, Routes
+} from 'react-router-dom';
+import Card from 'react-bootstrap/Card';
+import TourCardComp from "./TourCardComp";
+import AboutCardComp from "./AboutCardComp";
+import GalleryComp from "./GalleryComp";
 
 
 class Home extends Component {
@@ -11,7 +19,7 @@ class Home extends Component {
         return (
 
             <div>
-            
+                <NavbarComp/>
                 <div className="bg-img"></div>
                 <div className="bg-img-2"></div>
                 <div className="Tagline">Book with Us and Book it out of Here</div>
@@ -30,8 +38,8 @@ class Home extends Component {
                 <div className="heading-1">Our Services</div>
                 <div className="underline">Our Services</div>
                 <div className="heading-2">Popular Tours</div>
-
-
+                
+                <TourCardComp/>
                 <div className="sub">
                     <div className="bg-img-3"></div>
                     <div className="heading-1 sub-1">Subscribe</div>
@@ -55,17 +63,18 @@ class Home extends Component {
                     <div className="underline">About Us</div>
                     <div className="heading-2">A Signature of Excellence</div>
                 </div>
-
+                <AboutCardComp/>
                 <div className="gallery">
                     <div className="heading-1">Our Gallery</div>
                     <div className="underline">Our Gallerr</div>
                     <div className="heading-2">Photos by Our Customers</div>
                 </div>
-                <TestimonialComp/>
-                <ContactComp/>
-                
-                </div>
-          
+                <GalleryComp/>
+                <TestimonialComp />
+                <ContactComp />
+
+            </div>
+
         )
     }
 }
